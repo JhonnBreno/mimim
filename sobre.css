@@ -1,0 +1,48 @@
+/* qualidades.css */
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+width: 100vw;
+  font-family: 'Georgia', serif;
+  background-color: #fffdf8;
+  color: #333;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  padding: 2rem;
+  margin: auto;
+    max-width: 500px;
+}
+
+/* Título principal */
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  color: #b35f9c;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  body {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
