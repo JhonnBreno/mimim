@@ -1,0 +1,13 @@
+@media screen and (min-width: 700px){
+    .header .btn{
+        display: none;
+    }
+    .header .carta ul li a{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px){
+    .header ul li a{
+        display: none;
+    }
+}
